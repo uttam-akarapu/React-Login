@@ -1,6 +1,22 @@
+@media(min-width:320px){
+
+    .login{width:80%}
+}
+@media(min-width:768px){
+
+    .login{width:50%}
+}
+@media(min-width:992px){
+
+    .login{width:30%}
+}
+
+
+
+
 .login{
-    width:400px;
-    height:400px;
+   
+    height:100%;
     padding: 32px 16px;
     box-sizing: border-box;
     display: flex;
@@ -15,6 +31,8 @@
     justify-content: space-evenly;
     background-color:#ffd400
 }
+.login ul li input[type=text]{width:100%}
+
 .form{width:100%}
 
 .form label{
